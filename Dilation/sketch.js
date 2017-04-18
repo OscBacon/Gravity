@@ -68,8 +68,8 @@ function draw() {
     pop();
     push();
       textAlign(LEFT);
-      text("Temps perçu par l'observeur : "+t_p.toFixed(2)+" s",width-20,20);
-      text("Différence de temps entre les flash : "+dilation.toFixed(2)+" s",width-20,40);
+      text("Temps perçu par l'observeur : "+t_p.toFixed(2)+" s",width/2+20,20);
+      text("Différence de temps entre les flash : "+dilation.toFixed(2)+" s",width/2 +20,40);
     pop();
   pop();
 }
