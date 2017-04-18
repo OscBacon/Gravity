@@ -17,7 +17,7 @@ function setup() {
   start_button.position(180,height-20);
   start_button.mousePressed(start);
 
-  speed_slider = createSlider(0,100,50,float);
+  speed_slider = createSlider(0,99,50,float);
   speed_slider.position(width/2+100,height-20);
 }
 
@@ -62,7 +62,7 @@ function draw() {
     push();
     textAlign(CENTER,CENTER);
     fill(255);
-    text("Vitesse : " + v.toFixed(2)+ "* c",width/2,height-20);
+    text("Vitesse : " + v.toFixed(2)+ " * c",width/2,height-20);
     pop();
     push();
     textAlign(LEFT);
