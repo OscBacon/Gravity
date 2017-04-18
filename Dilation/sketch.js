@@ -67,7 +67,7 @@ function draw() {
       text("Vitesse : " + v.toFixed(2)+ "* c",width/2,height-20);
     pop();
     push();
-      textAlign(RIGHT);
+      textAlign(LEFT);
       text("Temps perçu par l'observeur : "+t_p.toFixed(2)+" s",width-20,20);
       text("Différence de temps entre les flash : "+dilation.toFixed(2)+" s",width-20,40);
     pop();
