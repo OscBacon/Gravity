@@ -54,24 +54,24 @@ function draw() {
     ellipse(0,0,z,z);
     z -= v;
     pop();
-
-  }
-  push();
+    push();
     fill(255,0,0);
     textSize(14);
     text("Temps perçu à côté du bouton : "+t.toFixed(2)+" s",20,20);
     text("Différence de temps entre les flash : 1 s",20,40);
     push();
-      textAlign(CENTER,CENTER);
-      fill(255);
-      text("Vitesse : " + v.toFixed(2)+ "* c",width/2,height-20);
+    textAlign(CENTER,CENTER);
+    fill(255);
+    text("Vitesse : " + v.toFixed(2)+ "* c",width/2,height-20);
     pop();
     push();
-      textAlign(LEFT);
-      text("Temps perçu par l'observeur : "+t_p.toFixed(2)+" s",width/2+20,20);
-      text("Différence de temps entre les flash : "+dilation.toFixed(2)+" s",width/2 +20,40);
+    textAlign(LEFT);
+    text("Temps perçu par l'observeur : "+t_p.toFixed(2)+" s",width/2+20,20);
+    text("Différence de temps entre les flash : "+dilation.toFixed(2)+" s",width/2 +20,40);
     pop();
-  pop();
+    pop();
+
+  }
 }
 
 function reset() {
