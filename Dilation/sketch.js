@@ -25,8 +25,8 @@ function draw() {
   v = speed_slider.value() /100;
   dilation = sqrt(1/(1-pow(v,2)));
   console.log(dilation,1-pow(v,2),v);
-  t_p += 1/(dilation*60);
   if (z>0 && play) {
+    t_p += 1/(dilation*60);
     background(64, 64, 64);
     t+=1/60;
     //Observateur à côté du bouton
