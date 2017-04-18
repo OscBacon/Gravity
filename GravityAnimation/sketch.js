@@ -1,8 +1,8 @@
-var g = "Gravity!";
+var g = "Gravity";
 var curIndex = 0;
 function setup() {
   createCanvas(400, 400);
-  frameRate(3);
+  frameRate(1);
 }
 function draw() {
   background(50);
